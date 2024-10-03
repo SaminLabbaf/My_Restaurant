@@ -7,11 +7,12 @@
     --primary-background: rgb(254, 250, 224);
     --secondary-background: rgb(233, 237, 201);
     --header-background: rgb(204, 213, 174);
+    --secondary-text-color: rgb(250, 237, 205);
     --header-color: white;
-    --footer-background: rgb(212, 163, 115);
+    --dark-color: rgb(212, 163, 115);
     /* Spacing */
     --spacing-unit: 16px;
-    --border-radius: 5px;
+    --border-radius: 18px;
     /* Typography */
     --font-family: 'MyFont';
     --bold-font-weight: 700;
@@ -88,7 +89,7 @@ nav ul li a {
 }
 
 footer {
-    background-color: var(--footer-background);
+    background-color: var(--dark-color);
     padding: calc(var(--spacing-unit) * 5);
     display: flex;
     justify-content: space-between;
